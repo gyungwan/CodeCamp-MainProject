@@ -10,12 +10,12 @@
 
 
 ## stack
- *Nest.js 
- *GraphQl
- *Typescript
- *TyprOrm
- *GCP
- <br/><br/>
+ *Nest.js <br/>
+ *GraphQl<br/>
+ *Typescript<br/>
+ *TyprOrm<br/>
+ *GCP<br/>
+ <br/><br/><br/>
  
  
  ----------------------
@@ -24,4 +24,4 @@
  https://www.erdcloud.com/d/qEsLChfvMYubybpsm
 <img width="916" alt="스크린샷 2023-03-06 오후 3 40 08" src="https://user-images.githubusercontent.com/113571059/223037721-5d62367e-5708-44fe-b4a2-e98a895db9ee.png">
 
-<br/><br/>
+<br/><br/><br/><br/>
