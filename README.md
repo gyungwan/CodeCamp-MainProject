@@ -27,113 +27,116 @@
 <br/><br/><br/><br/>
 
 
-📦src
- ┣ 📂apis
- ┃ ┣ 📂Like
- ┃ ┃ ┗ 📂entities
- ┃ ┃ ┃ ┗ 📜like.entity.ts
- ┃ ┣ 📂address
- ┃ ┃ ┗ 📂entities
- ┃ ┃ ┃ ┗ 📜address.entity.ts
- ┃ ┣ 📂auth
- ┃ ┃ ┣ 📂interface
- ┃ ┃ ┃ ┗ 📜auth-service.interface.ts
- ┃ ┃ ┣ 📜.DS_Store
- ┃ ┃ ┣ 📜auth.controller.ts
- ┃ ┃ ┣ 📜auth.module.ts
- ┃ ┃ ┣ 📜auth.resolver.ts
- ┃ ┃ ┗ 📜auth.service.ts
- ┃ ┣ 📂files
- ┃ ┃ ┣ 📂interfaces
- ┃ ┃ ┃ ┗ 📜files-service.interface.ts
- ┃ ┃ ┣ 📜files.module.ts
- ┃ ┃ ┣ 📜files.resolver.ts
- ┃ ┃ ┗ 📜files.service.ts
- ┃ ┣ 📂iamport
- ┃ ┃ ┣ 📜iamport.service copy.ts
- ┃ ┃ ┣ 📜iamport.service.ts
- ┃ ┃ ┗ 📜iamport_Service.ts
- ┃ ┣ 📂images
- ┃ ┃ ┣ 📂dto
- ┃ ┃ ┃ ┗ 📜product-image.input.ts
- ┃ ┃ ┣ 📂entities
- ┃ ┃ ┃ ┗ 📜image.entity.ts
- ┃ ┃ ┣ 📜images.module.ts
- ┃ ┃ ┣ 📜images.resolver.ts
- ┃ ┃ ┗ 📜images.service.ts
- ┃ ┣ 📂mainCategories
- ┃ ┃ ┣ 📂entities
- ┃ ┃ ┃ ┗ 📜mainCategory.entity.ts
- ┃ ┃ ┣ 📂interface
- ┃ ┃ ┃ ┗ 📜products-mainCategory-service.interface.ts
- ┃ ┃ ┣ 📜productsMainCategories.module.ts
- ┃ ┃ ┣ 📜productsMainCategories.resolver.ts
- ┃ ┃ ┗ 📜productsMainCategories.service.ts
- ┃ ┣ 📂payments
- ┃ ┃ ┣ 📂entities
- ┃ ┃ ┃ ┗ 📜payment.entity.ts
- ┃ ┃ ┣ 📂interface
- ┃ ┃ ┃ ┗ 📜payment.interface.ts
- ┃ ┃ ┣ 📜payments.module.ts
- ┃ ┃ ┣ 📜payments.resolver.ts
- ┃ ┃ ┗ 📜payments.service.ts
- ┃ ┣ 📂productTags
- ┃ ┃ ┗ 📂entities
- ┃ ┃ ┃ ┗ 📜productTag.entity.ts
- ┃ ┣ 📂products
- ┃ ┃ ┣ 📂dto
- ┃ ┃ ┃ ┣ 📜create-product.input.ts
- ┃ ┃ ┃ ┗ 📜update-product.input.ts
- ┃ ┃ ┣ 📂entities
- ┃ ┃ ┃ ┗ 📜product.entity.ts
- ┃ ┃ ┣ 📂interface
- ┃ ┃ ┃ ┗ 📜products-service.interface.ts
- ┃ ┃ ┣ 📜products.module.ts
- ┃ ┃ ┣ 📜products.resolver.ts
- ┃ ┃ ┗ 📜products.service.ts
- ┃ ┣ 📂sizes
- ┃ ┃ ┣ 📂dto
- ┃ ┃ ┃ ┗ 📜product-size.input.ts
- ┃ ┃ ┗ 📂entities
- ┃ ┃ ┃ ┗ 📜size.entity.ts
- ┃ ┣ 📂subCategories
- ┃ ┃ ┣ 📂dto
- ┃ ┃ ┃ ┗ 📜product-sub-category.input.ts
- ┃ ┃ ┣ 📂entities
- ┃ ┃ ┃ ┗ 📜subCategory.entity.ts
- ┃ ┃ ┣ 📂interface
- ┃ ┃ ┃ ┗ 📜products-subCategory-service.interface.ts
- ┃ ┃ ┣ 📜productsSubCategories.module.ts
- ┃ ┃ ┣ 📜productsSubCategories.resolver.ts
- ┃ ┃ ┗ 📜productsSubCategories.service.ts
- ┃ ┣ 📂users
- ┃ ┃ ┣ 📂dto
- ┃ ┃ ┃ ┣ 📜create-user.input.ts
- ┃ ┃ ┃ ┗ 📜update-user.input.ts
- ┃ ┃ ┣ 📂entities
- ┃ ┃ ┃ ┗ 📜user.entity.ts
- ┃ ┃ ┣ 📂interfaces
- ┃ ┃ ┃ ┗ 📜users-service.interface.ts
- ┃ ┃ ┣ 📜users.module.ts
- ┃ ┃ ┣ 📜users.resolver.ts
- ┃ ┃ ┗ 📜users.service.ts
- ┃ ┗ 📜.DS_Store
- ┣ 📂commons
- ┃ ┣ 📂auth
- ┃ ┃ ┣ 📜gql-auth.guard.ts
- ┃ ┃ ┣ 📜jwt-access.strategy.ts
- ┃ ┃ ┣ 📜jwt-refresh.strategy.ts
- ┃ ┃ ┣ 📜jwt-social-google.strategy.ts
- ┃ ┃ ┣ 📜jwt-social-kakao.strategy.ts
- ┃ ┃ ┗ 📜jwt-social-naver.strategy.ts
- ┃ ┣ 📂graphql
- ┃ ┃ ┗ 📜schema.gql
- ┃ ┣ 📂libraries
- ┃ ┃ ┗ 📜utils.ts
- ┃ ┣ 📂types
- ┃ ┃ ┗ 📜context.ts
- ┃ ┗ 📜.DS_Store
- ┣ 📜.DS_Store
- ┣ 📜app.controller.ts
- ┣ 📜app.module.ts
- ┗ 📜main.ts
+## Directory
+<br/><br/>
+📦src<br/>
+ ┣ 📂apis<br/>
+ ┃ ┣ 📂Like<br/>
+ ┃ ┃ ┗ 📂entities<br/>
+ ┃ ┃ ┃ ┗ 📜like.entity.ts<br/>
+ ┃ ┣ 📂address<br/>
+ ┃ ┃ ┗ 📂entities<br/>
+ ┃ ┃ ┃ ┗ 📜address.entity.ts<br/>
+ ┃ ┣ 📂auth<br/>
+ ┃ ┃ ┣ 📂interface<br/>
+ ┃ ┃ ┃ ┗ 📜auth-service.interface.ts<br/>
+ ┃ ┃ ┣ 📜.DS_Store<br/>
+ ┃ ┃ ┣ 📜auth.controller.ts<br/>
+ ┃ ┃ ┣ 📜auth.module.ts<br/>
+ ┃ ┃ ┣ 📜auth.resolver.ts<br/>
+ ┃ ┃ ┗ 📜auth.service.ts<br/>
+ ┃ ┣ 📂files<br/>
+ ┃ ┃ ┣ 📂interfaces<br/>
+ ┃ ┃ ┃ ┗ 📜files-service.interface.ts<br/>
+ ┃ ┃ ┣ 📜files.module.ts<br/>
+ ┃ ┃ ┣ 📜files.resolver.ts<br/>
+ ┃ ┃ ┗ 📜files.service.ts<br/>
+ ┃ ┣ 📂iamport<br/>
+ ┃ ┃ ┣ 📜iamport.service copy.ts<br/>
+ ┃ ┃ ┣ 📜iamport.service.ts<br/>
+ ┃ ┃ ┗ 📜iamport_Service.ts<br/>
+ ┃ ┣ 📂images<br/>
+ ┃ ┃ ┣ 📂dto<br/>
+ ┃ ┃ ┃ ┗ 📜product-image.input.ts<br/>
+ ┃ ┃ ┣ 📂entities<br/>
+ ┃ ┃ ┃ ┗ 📜image.entity.ts<br/>
+ ┃ ┃ ┣ 📜images.module.ts<br/>
+ ┃ ┃ ┣ 📜images.resolver.ts<br/>
+ ┃ ┃ ┗ 📜images.service.ts<br/>
+ ┃ ┣ 📂mainCategories<br/>
+ ┃ ┃ ┣ 📂entities<br/>
+ ┃ ┃ ┃ ┗ 📜mainCategory.entity.ts<br/>
+ ┃ ┃ ┣ 📂interface<br/>
+ ┃ ┃ ┃ ┗ 📜products-mainCategory-service.interface.ts<br/>
+ ┃ ┃ ┣ 📜productsMainCategories.module.ts<br/>
+ ┃ ┃ ┣ 📜productsMainCategories.resolver.ts<br/>
+ ┃ ┃ ┗ 📜productsMainCategories.service.ts<br/>
+ ┃ ┣ 📂payments<br/>
+ ┃ ┃ ┣ 📂entities<br/>
+ ┃ ┃ ┃ ┗ 📜payment.entity.ts<br/>
+ ┃ ┃ ┣ 📂interface<br/>
+ ┃ ┃ ┃ ┗ 📜payment.interface.ts<br/>
+ ┃ ┃ ┣ 📜payments.module.ts<br/>
+ ┃ ┃ ┣ 📜payments.resolver.ts<br/>
+ ┃ ┃ ┗ 📜payments.service.ts<br/>
+ ┃ ┣ 📂productTags<br/>
+ ┃ ┃ ┗ 📂entities<br/>
+ ┃ ┃ ┃ ┗ 📜productTag.entity.ts<br/>
+ ┃ ┣ 📂products<br/>
+ ┃ ┃ ┣ 📂dto<br/>
+ ┃ ┃ ┃ ┣ 📜create-product.input.ts<br/>
+ ┃ ┃ ┃ ┗ 📜update-product.input.ts<br/>
+ ┃ ┃ ┣ 📂entities<br/>
+ ┃ ┃ ┃ ┗ 📜product.entity.ts<br/>
+ ┃ ┃ ┣ 📂interface<br/>
+ ┃ ┃ ┃ ┗ 📜products-service.interface.ts<br/>
+ ┃ ┃ ┣ 📜products.module.ts<br/>
+ ┃ ┃ ┣ 📜products.resolver.ts<br/>
+ ┃ ┃ ┗ 📜products.service.ts<br/>
+ ┃ ┣ 📂sizes<br/>
+ ┃ ┃ ┣ 📂dto<br/>
+ ┃ ┃ ┃ ┗ 📜product-size.input.ts<br/>
+ ┃ ┃ ┗ 📂entities<br/>
+ ┃ ┃ ┃ ┗ 📜size.entity.ts<br/>
+ ┃ ┣ 📂subCategories<br/>
+ ┃ ┃ ┣ 📂dto<br/>
+ ┃ ┃ ┃ ┗ 📜product-sub-category.input.ts<br/>
+ ┃ ┃ ┣ 📂entities<br/>
+ ┃ ┃ ┃ ┗ 📜subCategory.entity.ts<br/>
+ ┃ ┃ ┣ 📂interface<br/>
+ ┃ ┃ ┃ ┗ 📜products-subCategory-service.interface.ts<br/>
+ ┃ ┃ ┣ 📜productsSubCategories.module.ts<br/>
+ ┃ ┃ ┣ 📜productsSubCategories.resolver.ts<br/>
+ ┃ ┃ ┗ 📜productsSubCategories.service.ts<br/>
+ ┃ ┣ 📂users<br/>
+ ┃ ┃ ┣ 📂dto<br/>
+ ┃ ┃ ┃ ┣ 📜create-user.input.ts<br/>
+ ┃ ┃ ┃ ┗ 📜update-user.input.ts<br/>
+ ┃ ┃ ┣ 📂entities<br/>
+ ┃ ┃ ┃ ┗ 📜user.entity.ts<br/>
+ ┃ ┃ ┣ 📂interfaces<br/>
+ ┃ ┃ ┃ ┗ 📜users-service.interface.ts<br/>
+ ┃ ┃ ┣ 📜users.module.ts<br/>
+ ┃ ┃ ┣ 📜users.resolver.ts<br/>
+ ┃ ┃ ┗ 📜users.service.ts<br/>
+ ┃ ┗ 📜.DS_Store<br/>
+ ┣ 📂commons<br/>
+ ┃ ┣ 📂auth<br/>
+ ┃ ┃ ┣ 📜gql-auth.guard.ts<br/>
+ ┃ ┃ ┣ 📜jwt-access.strategy.ts<br/>
+ ┃ ┃ ┣ 📜jwt-refresh.strategy.ts<br/>
+ ┃ ┃ ┣ 📜jwt-social-google.strategy.ts<br/>
+ ┃ ┃ ┣ 📜jwt-social-kakao.strategy.ts<br/>
+ ┃ ┃ ┗ 📜jwt-social-naver.strategy.ts<br/>
+ ┃ ┣ 📂graphql<br/>
+ ┃ ┃ ┗ 📜schema.gql<br/>
+ ┃ ┣ 📂libraries<br/>
+ ┃ ┃ ┗ 📜utils.ts<br/>
+ ┃ ┣ 📂types<br/>
+ ┃ ┃ ┗ 📜context.ts<br/>
+ ┃ ┗ 📜.DS_Store<br/>
+ ┣ 📜.DS_Store<br/>
+ ┣ 📜app.controller.ts<br/>
+ ┣ 📜app.module.ts<br/>
+ ┗ 📜main.ts<br/>
+<br/><br/><br/><br/><br/>
