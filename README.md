@@ -22,4 +22,5 @@
  
  ## ERD
  https://www.erdcloud.com/d/qEsLChfvMYubybpsm
-![Uploading 스크린샷 2023-03-06 오후 3.40.08.png…]()
+<img width="916" alt="스크린샷 2023-03-06 오후 3 40 08" src="https://user-images.githubusercontent.com/113571059/223037721-5d62367e-5708-44fe-b4a2-e98a895db9ee.png">
+
