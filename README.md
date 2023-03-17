@@ -14,6 +14,7 @@
  *GraphQl<br/>
  *Typescript<br/>
  *TyprOrm<br/>
+ *mySQl <br/>
  *GCP<br/>
  <br/><br/><br/>
  
